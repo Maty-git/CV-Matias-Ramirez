@@ -1,0 +1,259 @@
+{
+  "personalInfo": {
+    "fullName": "Matias Fernando Ramírez Escobar",
+    "title": "Desarrollador Full Stack | Ayudante USACH",
+    "email": "matias.ramirez.e@usach.cl",
+    "phone": "+56998382864",
+    "location": {
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "country": "Chile"
+    },
+    "github": "https://github.com/Maty-git",
+    "linkedin": "https://linkedin.com/in/matias-ramirez-escobar-860134384/"
+  },
+  
+  "professionalSummary": "Desarrollador de software con experiencia en desarrollo web, APIs REST, bases de datos, microservicios y proyectos full stack. He trabajado con Java, Spring Boot, JavaScript, React, Vue, Python, PostgreSQL, Docker, Git/GitHub y herramientas de automatización y seguridad aplicada. Actualmente desempeño funciones como ayudante de Fundamentos de Programación y de Fundamentos de Ingeniería de Software en la USACH, fortaleciendo mis habilidades de comunicación, resolución de problemas, acompañamiento académico y trabajo en equipo. Me caracterizo por mi capacidad de aprendizaje autónomo, adaptación a nuevas tecnologías y enfoque en construir soluciones útiles, escalables y bien estructuradas.",
+
+  "experience": [
+    {
+      "position": "Ayudante de Fundamentos de Programación",
+      "company": "Universidad de Santiago de Chile (USACH)",
+      "startDate": "2025-01",
+      "endDate": "present",
+      "description": [
+        "Apoyo en laboratorios y talleres de programación orientada a objetos a estudiantes de Ingeniería",
+        "Desarrollo de material didáctico, guías de ejercicios y ejemplos prácticos",
+        "Revisión de código y retroalimentación técnica a estudiantes",
+        "Resolución de dudas y acompañamiento en el aprendizaje de conceptos fundamentales"
+      ]
+    },
+    {
+      "position": "Ayudante de Fundamentos de Ingeniería de Software",
+      "company": "Universidad de Santiago de Chile (USACH)",
+      "startDate": "2024-01",
+      "endDate": "present",
+      "duration": "1 año",
+      "description": [
+        "Apoyo en laboratorios de ingeniería de software, metodologías de desarrollo y buenas prácticas",
+        "Mentoría a estudiantes en análisis de requerimientos, diseño de soluciones y arquitectura de software",
+        "Evaluación de trabajos prácticos y proyectos de ingeniería de software",
+        "Facilitación de conceptos relacionados con calidad, testing y ciclo de vida del software"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "ToolRent — Sistema de Gestión de Alquiler de Herramientas (Full Stack)",
+      "startDate": "2025-08",
+      "endDate": "present",
+      "description": "Plataforma full stack para la gestión de inventario, herramientas, préstamos, clientes, deudas y reportes",
+      "technologies": [
+        "Java 21",
+        "Spring Boot 3.4.9",
+        "React",
+        "PostgreSQL",
+        "Keycloak",
+        "Docker",
+        "Maven",
+        "JaCoCo"
+      ],
+      "achievements": [
+        "Desarrollé API REST con Spring Boot (5 controladores, 6 servicios, 5 repositorios JPA)",
+        "Diseñé interfaz responsiva en React, Vite y Bootstrap con autenticación mediante Keycloak",
+        "Alcancé cobertura de código ≥90% con 18 clases de prueba (~210 métodos de prueba unitaria)",
+        "Implementé funcionalidades avanzadas: seguimiento de préstamos, cálculo de multas, kardex de inventario",
+        "Validaciones de negocio, pruebas unitarias e integración con PostgreSQL"
+      ],
+      "repository": "https://github.com/Maty-git/BackendTingeso"
+    },
+    {
+      "name": "vuln-app-wazuh — Proyecto DevSecOps 2-2025",
+      "startDate": "2025",
+      "endDate": "2025",
+      "description": "Proyecto orientado a automatización y análisis de seguridad en aplicaciones",
+      "technologies": [
+        "JavaScript",
+        "Vue",
+        "Python",
+        "PLpgSQL",
+        "Shell",
+        "CSS"
+      ],
+      "achievements": [
+        "Integración de frontend con Vue, backend con Python y base de datos PostgreSQL",
+        "Implementación de scripts de automatización (Shell) para procesos de monitoreo",
+        "Análisis de vulnerabilidades y gestión de controles de seguridad",
+        "Visualización de datos de seguridad y DevSecOps"
+      ]
+    },
+    {
+      "name": "Plataforma basada en Microservicios",
+      "startDate": "2025",
+      "endDate": "2025",
+      "description": "Solución con frontend y backend desacoplados",
+      "technologies": [
+        "Java",
+        "JavaScript",
+        "Microservicios",
+        "Arquitectura Distribuida"
+      ],
+      "achievements": [
+        "Implementación de modularidad y separación de responsabilidades",
+        "Aplicación de patrones de diseño para sistemas distribuidos",
+        "Escalabilidad y desacoplamiento entre servicios"
+      ]
+    },
+    {
+      "name": "Sistema de Gestión para Tienda TCG",
+      "startDate": "2025",
+      "endDate": "2025",
+      "description": "Aplicación para administración de tienda de cartas coleccionables",
+      "technologies": [
+        "Java",
+        "Bases de Datos",
+        "Modelado Relacional"
+      ],
+      "achievements": [
+        "Diseño e implementación del modelado de datos relacional",
+        "Desarrollo de lógica de negocio para gestión de inventario",
+        "Estructura de operaciones comerciales"
+      ]
+    },
+    {
+      "name": "Proyectos Académicos — Programación Multiparadigma",
+      "startDate": "2024",
+      "endDate": "2025",
+      "description": "Soluciones aplicando programación orientada a objetos, lógica y funcional",
+      "technologies": [
+        "Java",
+        "Prolog",
+        "Racket",
+        "Scheme"
+      ],
+      "achievements": [
+        "Implementación de estructuras de datos complejas",
+        "Recursividad y abstracción funcional",
+        "Proyectos: Conecta 4 en Java, laboratorios de Prolog y Scheme"
+      ]
+    }
+  ],
+
+  "technicalSkills": {
+    "programmingLanguages": [
+      "Java 21",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "SQL",
+      "PL/pgSQL",
+      "Shell Script",
+      "Prolog",
+      "Racket",
+      "Scheme"
+    ],
+    "backendFrameworks": [
+      "Spring Boot 3.x",
+      "Spring Data JPA",
+      "Spring Security",
+      "Maven",
+      "REST API Design",
+      "Microservicios"
+    ],
+    "frontendFrameworks": [
+      "React 18",
+      "Vue.js",
+      "Vite",
+      "Bootstrap 5",
+      "HTML5",
+      "CSS3",
+      "React Router"
+    ],
+    "databasesDevOps": [
+      "PostgreSQL",
+      "Modelado relacional",
+      "Docker",
+      "Git",
+      "GitHub",
+      "Keycloak",
+      "JaCoCo"
+    ],
+    "testingQuality": [
+      "Pruebas unitarias",
+      "Pruebas de integración",
+      "JUnit",
+      "Cobertura de código",
+      "Validación de datos",
+      "Manejo de errores"
+    ],
+    "securityDevSecOps": [
+      "Autenticación y autorización",
+      "Keycloak",
+      "SAML",
+      "Validación de entrada",
+      "OWASP principles",
+      "Automatización de seguridad",
+      "Análisis de vulnerabilidades"
+    ],
+    "methodologiesArchitecture": [
+      "Arquitectura por capas",
+      "SOLID principles",
+      "Clean Code",
+      "Documentación",
+      "Control de versiones",
+      "Agile awareness"
+    ],
+    "tools": [
+      "IntelliJ IDEA",
+      "VS Code",
+      "GitHub",
+      "Maven",
+      "Docker",
+      "Postman"
+    ]
+  },
+
+  "softSkills": [
+    "Resolución de problemas y pensamiento crítico",
+    "Aprendizaje autónomo y continuo",
+    "Adaptabilidad a nuevas tecnologías",
+    "Comunicación efectiva",
+    "Trabajo en equipo y colaboración",
+    "Organización y planificación",
+    "Atención al detalle",
+    "Pensamiento lógico y abstracción",
+    "Responsabilidad y compromiso",
+    "Mentoría y enseñanza",
+    "Acompañamiento académico"
+  ],
+
+  "education": [
+    {
+      "degree": "Ingeniería en Ejecución en Computación",
+      "institution": "Universidad de Santiago de Chile (USACH)",
+      "expectedGraduation": "2027-03",
+      "status": "En curso"
+    }
+  ],
+
+  "additionalInfo": {
+    "languages": [
+      {
+        "language": "Español",
+        "level": "Nativo"
+      },
+      {
+        "language": "Inglés",
+        "level": "Lectura técnica"
+      }
+    ],
+    "availability": "Disponible para prácticas, freelance o empleo a tiempo completo"
+  },
+
+  "metadata": {
+    "lastUpdated": "2026-09-26",
+    "cvVersion": "1.0",
+    "repository": "https://github.com/Maty-git/CV-Matias-Ramirez"
+  }
+}
