@@ -1,224 +1,98 @@
 # Curriculum Vitae - Matias Fernando Ramírez Escobar
 
-Bienvenido a mi repositorio de CV. Aquí encontrarás mi currículo en múltiples formatos optimizados para diferentes plataformas y reclutadores.
+> Desarrollador Full Stack | Ayudante USACH
 
----
+## 🌐 CV en línea
 
-## 👤 Información de Contacto
+**[Ver mi CV en línea](https://maty-git.github.io/CV-Matias-Ramirez/)** · [Repositorio](https://github.com/Maty-git/CV-Matias-Ramirez)
+
+La versión web es responsiva, accesible desde navegador e imprimible como PDF mediante **Ctrl+P / Cmd+P → Guardar como PDF**.
+
+## 👤 Información de contacto
 
 - **Nombre:** Matias Fernando Ramírez Escobar
-- **Profesión:** Desarrollador Full Stack | Ayudante USACH
-- **Email:** [matias.ramirez.e@usach.cl](mailto:matias.ramirez.e@usach.cl)
+- **Correo:** [matias.ramirez.e@usach.cl](mailto:matias.ramirez.e@usach.cl)
 - **Teléfono:** [+56 9 9838 2864](tel:+56998382864)
 - **Ubicación:** Santiago, Región Metropolitana, Chile
 - **GitHub:** [github.com/Maty-git](https://github.com/Maty-git)
-- **LinkedIn:** [linkedin.com/in/matias-ramirez-escobar-860134384/](https://linkedin.com/in/matias-ramirez-escobar-860134384/)
+- **LinkedIn:** [Perfil de LinkedIn](https://www.linkedin.com/in/matias-ramirez-escobar-860134384/)
 
----
+## Perfil profesional
 
-## 📄 Formatos Disponibles
+Desarrollador de software con experiencia en desarrollo web, APIs REST, bases de datos, microservicios y proyectos full stack. He trabajado con Java, Spring Boot, JavaScript, React, Vue, Python, PostgreSQL, Docker, Git/GitHub y herramientas de automatización y seguridad aplicada. Actualmente desempeño funciones como ayudante de Fundamentos de Programación y de Fundamentos de Ingeniería de Software en la USACH, fortaleciendo mis habilidades de comunicación, resolución de problemas, mentoría y trabajo en equipo.
 
-### 1. **CV en HTML (Recomendado para web)**
-- **Archivo:** `index.html`
-- **Acceso:** Puedes verlo directamente en el navegador
-- **Ventajas:** 
-  - Completamente responsivo (funciona en móvil, tablet, desktop)
-  - Optimizado para ATS (Applicant Tracking System)
-  - Fácil de compartir por URL
-  - Imprimible como PDF
+## Experiencia académica
 
-### 2. **CV en JSON (Para sistemas ATS)**
-- **Archivo:** `cv.json`
-- **Uso:** Parseable por sistemas de reclutamiento automático
-- **Ventajas:**
-  - Estructura de datos clara y ordenada
-  - Fácil de procesar por bots y software de reclutamiento
-  - Incluye todas las competencias y experiencia
+### Ayudante de Fundamentos de Programación — USACH
+**2025 – Presente**
 
-### 3. **CV en Markdown (Para GitHub)**
-- **Archivo:** `README.md` (este archivo)
-- **Uso:** Referencia rápida en GitHub
-- **Ventajas:**
-  - Fácil de leer
-  - Versionable en Git
+- Apoyo en laboratorios y talleres de programación.
+- Revisión de código, resolución de dudas y retroalimentación técnica.
+- Desarrollo de material didáctico y ejemplos prácticos.
 
----
+### Ayudante de Fundamentos de Ingeniería de Software — USACH
+**2025 – Presente**
 
-## 🎯 Perfil Profesional
+- Apoyo en análisis de requerimientos, diseño y buenas prácticas de desarrollo.
+- Mentoría y evaluación de trabajos prácticos.
+- Refuerzo de conceptos de calidad, testing y ciclo de vida del software.
 
-Desarrollador de software con experiencia en **desarrollo web, APIs REST, bases de datos, microservicios y proyectos full stack**. 
+## Proyectos destacados
 
-He trabajado con:
-- **Backend:** Java, Spring Boot, Python, SQL
-- **Frontend:** React, Vue, JavaScript, Bootstrap
-- **Bases de Datos:** PostgreSQL, Modelado Relacional
-- **DevOps & Seguridad:** Docker, Git, Keycloak, DevSecOps
-- **Testing:** Pruebas unitarias e integración con cobertura ≥90%
+### ToolRent — Sistema de gestión de alquiler de herramientas
+**Java · Spring Boot · React · PostgreSQL · Keycloak · Docker**
 
-Actualmente desempeño funciones como:
-- **Ayudante de Fundamentos de Programación (USACH)** — Enero 2025 - Presente
-- **Ayudante de Fundamentos de Ingeniería de Software (USACH)** — Enero 2024 - Presente (1 año)
+Desarrollo de una plataforma full stack para gestionar inventario, préstamos, clientes, deudas y reportes. Implementé una API REST, autenticación basada en roles, persistencia con JPA, validaciones de negocio y pruebas con cobertura superior al 90 %.
 
-Me caracterizo por mi **capacidad de aprendizaje autónomo, adaptación a nuevas tecnologías, resolución de problemas y enfoque en construir soluciones útiles, escalables y bien estructuradas**.
-
----
-
-## 💼 Experiencia Destacada
-
-### ToolRent — Sistema de Gestión de Alquiler de Herramientas (Full Stack)
-**Agosto 2025 - Presente**
-
-Plataforma completa para gestionar inventario, préstamos, clientes, deudas y reportes.
-
-**Stack Tecnológico:**
-- Backend: `Java 21` | `Spring Boot 3.4.9` | `PostgreSQL` | `Maven`
-- Frontend: `React` | `Vite` | `Bootstrap 5` | `Keycloak`
-- DevOps: `Docker` | `JaCoCo` (Code Coverage)
-
-**Logros:**
-- ✅ API REST con 5 controladores y 6 servicios de negocio
-- ✅ Cobertura de código ≥90% con ~210 pruebas unitarias
-- ✅ Autenticación y autorización basadas en roles
-- ✅ Funcionalidades avanzadas: kardex, multas, reportes
-
----
+- [BackendTingeso](https://github.com/Maty-git/BackendTingeso)
+- [FrontendTingeso](https://github.com/Maty-git/FrontendTingeso)
 
 ### vuln-app-wazuh — Proyecto DevSecOps 2-2025
+**JavaScript · Vue · Python · PL/pgSQL · Shell · CSS**
 
-Proyecto orientado a **automatización y análisis de seguridad** en aplicaciones.
+Proyecto orientado a automatización y análisis de seguridad en aplicaciones, integrando tecnologías frontend, backend, bases de datos y scripting.
 
-**Stack Tecnológico:**
-- Frontend: `Vue` | `JavaScript` | `CSS`
-- Backend: `Python` | `PLpgSQL`
-- DevOps: `Shell Scripting` | `Automatización`
+- [Repositorio vuln-app-wazuh](https://github.com/Scapin1/vuln-app-wazuh)
 
----
+### Plataforma basada en microservicios
+**Java · JavaScript · Arquitectura distribuida**
 
-### Experiencia Docente (USACH)
+Desarrollo de una solución con frontend y backend desacoplados, aplicando modularidad, separación de responsabilidades y principios de escalabilidad.
 
-**Ayudante de Fundamentos de Programación** (Enero 2025 - Presente)
-- Apoyo en laboratorios y talleres de OOP
-- Desarrollo de material didáctico
-- Revisión de código y tutoría
+- [Backend](https://github.com/Maty-git/microserviciosbackend)
+- [Frontend](https://github.com/Maty-git/microserviciosfrontend)
 
-**Ayudante de Fundamentos de Ingeniería de Software** (Enero 2024 - Presente)
-- Mentoría en análisis de requerimientos y diseño
-- Evaluación de trabajos prácticos
-- Enseñanza de buenas prácticas de software
+### Sistema de gestión para tienda TCG
+**Java · Bases de datos · Modelado relacional**
 
----
+Participación en el desarrollo de una solución para la gestión de inventario y operaciones de una tienda de cartas coleccionables.
 
-## 🛠️ Competencias Técnicas
+- [DBD_Grupo_11](https://github.com/Maty-git/DBD_Grupo_11)
 
-### Lenguajes
-`Java 21` · `JavaScript` · `Python` · `SQL` · `PL/pgSQL` · `Shell` · `Prolog` · `Scheme`
+## Competencias técnicas
 
-### Backend & Frameworks
-`Spring Boot 3.x` · `Spring Data JPA` · `Spring Security` · `Maven` · `REST API` · `Microservicios`
+- **Lenguajes:** Java, JavaScript, Python, SQL, PL/pgSQL, Shell, Prolog y Scheme.
+- **Backend:** Spring Boot, Spring Data JPA, APIs REST y microservicios.
+- **Frontend:** React, Vue, Vite, Bootstrap, HTML5 y CSS3.
+- **Datos y DevOps:** PostgreSQL, modelado relacional, Docker, Maven, Git y GitHub.
+- **Calidad y seguridad:** pruebas unitarias, validación de datos, JaCoCo, Keycloak, autenticación, autorización y fundamentos de DevSecOps.
 
-### Frontend & Frameworks
-`React 18` · `Vue.js` · `Vite` · `Bootstrap 5` · `React Router` · `HTML5` · `CSS3`
+## Habilidades blandas
 
-### Bases de Datos & DevOps
-`PostgreSQL` · `Modelado Relacional` · `Docker` · `Git/GitHub` · `Keycloak` · `JaCoCo`
+Resolución de problemas · aprendizaje autónomo · adaptación tecnológica · comunicación efectiva · trabajo en equipo · mentoría · organización · pensamiento lógico · atención al detalle · compromiso con la calidad.
 
-### Testing & Calidad
-`Pruebas Unitarias` · `Pruebas de Integración` · `JUnit` · `Cobertura ≥90%` · `Validación de Datos`
-
-### Seguridad & DevSecOps
-`Autenticación/Autorización` · `OWASP` · `Keycloak` · `SAML` · `Análisis de Vulnerabilidades`
-
-### Herramientas
-`IntelliJ IDEA` · `VS Code` · `GitHub` · `Maven` · `Docker` · `Postman`
-
----
-
-## 🧠 Competencias Blandas
-
-- **Resolución de problemas** - Análisis lógico y pensamiento crítico
-- **Aprendizaje autónomo** - Capacidad de aprender nuevas tecnologías
-- **Adaptabilidad** - Flexibilidad ante cambios y nuevas herramientas
-- **Comunicación efectiva** - Explicación clara de conceptos técnicos
-- **Trabajo en equipo** - Experiencia colaborativa y mentoría
-- **Organización** - Gestión de tareas y cumplimiento de objetivos
-- **Atención al detalle** - Enfoque en calidad y testing
-- **Mentoría** - Experiencia enseñando a pares
-
----
-
-## 🎓 Educación
+## Educación
 
 **Ingeniería en Ejecución en Computación**  
 Universidad de Santiago de Chile (USACH)  
-📅 Egreso: Marzo 2027
+**Egreso esperado:** marzo de 2027
+
+## Archivos del repositorio
+
+- [CV web en HTML](https://maty-git.github.io/CV-Matias-Ramirez/)
+- [CV estructurado en JSON](./cv.json)
+- [CV en HTML (código fuente)](./index.html)
 
 ---
 
-## 📊 Mis Repositorios de Proyectos
-
-- **Backend ToolRent:** [github.com/Maty-git/BackendTingeso](https://github.com/Maty-git/BackendTingeso)
-- **Frontend ToolRent:** [github.com/Maty-git/FrontendTingeso](https://github.com/Maty-git/FrontendTingeso)
-- **DevSecOps Wazuh:** [github.com/Scapin1/vuln-app-wazuh](https://github.com/Scapin1/vuln-app-wazuh)
-- **Más proyectos:** [github.com/Maty-git?tab=repositories](https://github.com/Maty-git?tab=repositories)
-
----
-
-## 🌐 Cómo Usar Este CV
-
-### **Para Reclutadores (Software ATS):**
-1. Descarga `cv.json` y cárgalo en tu sistema
-2. O accede a `index.html` desde tu navegador para una vista visual
-
-### **Para Empleadores:**
-1. Abre `index.html` en tu navegador
-2. Puedes imprimir como PDF (Ctrl+P o Cmd+P)
-3. O comparte el enlace directamente
-
-### **Para GitHub:**
-1. Lee `README.md` para una visión general
-2. Explora mis repositorios de proyectos
-3. Contacta via email o LinkedIn
-
----
-
-## 📞 Contacto Rápido
-
-| Medio | Información |
-|-------|-------------|
-| 📧 **Email** | [matias.ramirez.e@usach.cl](mailto:matias.ramirez.e@usach.cl) |
-| 📱 **Teléfono** | [+56 9 9838 2864](tel:+56998382864) |
-| 🔗 **GitHub** | [github.com/Maty-git](https://github.com/Maty-git) |
-| 💼 **LinkedIn** | [linkedin.com/in/matias-ramirez-escobar-860134384/](https://linkedin.com/in/matias-ramirez-escobar-860134384/) |
-| 📍 **Ubicación** | Santiago, Región Metropolitana, Chile |
-
----
-
-## 📝 Notas
-
-- Este CV está optimizado para **sistemas ATS** (Applicant Tracking Systems) utilizados por empresas
-- Incluye palabras clave técnicas relevantes para búsquedas automáticas
-- Se actualiza regularmente con nuevos proyectos y experiencias
-- Disponible en múltiples formatos para máxima compatibilidad
-
----
-
-## 📄 Historial de Versiones
-
-| Versión | Fecha | Cambios |
-|---------|-------|---------|
-| 1.0 | Septiembre 2026 | Versión inicial - HTML, JSON, Markdown |
-
----
-
-## 📜 Licencia
-
-Este CV es de uso personal. Siéntete libre de contactarme si tienes preguntas o necesitas información adicional.
-
----
-
-**Última actualización:** 26 de Septiembre de 2026  
-**Repositorio:** [github.com/Maty-git/CV-Matias-Ramirez](https://github.com/Maty-git/CV-Matias-Ramirez)
-
----
-
-¿Interesado en trabajar juntos? **¡Contáctame!** 🚀
+**Última actualización:** septiembre de 2026
