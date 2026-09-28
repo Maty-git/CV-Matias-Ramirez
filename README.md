@@ -19,80 +19,74 @@ La versión web es responsiva, accesible desde navegador e imprimible como PDF m
 
 ## Perfil profesional
 
-Desarrollador de software con experiencia en desarrollo web, APIs REST, bases de datos, microservicios y proyectos full stack. He trabajado con Java, Spring Boot, JavaScript, React, Vue, Python, PostgreSQL, Docker, Git/GitHub y herramientas de automatización y seguridad aplicada. Actualmente desempeño funciones como ayudante de Fundamentos de Programación y de Fundamentos de Ingeniería de Software en la USACH, fortaleciendo mis habilidades de comunicación, resolución de problemas, mentoría y trabajo en equipo.
+Desarrollador de software enfocado en el desarrollo full stack, arquitecturas modernas (monolíticas y microservicios) y APIs REST escalables. Experiencia práctica construyendo soluciones con Java (Spring Boot), Go y Python en backend, integradas con React, Vue y bases de datos PostgreSQL. Cuenta con experiencia en contenerización con Docker, prácticas DevSecOps (CI/CD, escaneo DAST con OWASP ZAP) y autenticación centralizada RBAC. Me desempeño como ayudante de cátedra y laboratorio en la USACH, reforzando capacidades de comunicación técnica, análisis algorítmico y trabajo colaborativo.
 
 ## Experiencia académica
 
-### Ayudante de Fundamentos de Programación — USACH
-**2025 – Presente**
+### Ayudante de Cátedra — Fundamentos de Programación
+**Septiembre 2026 – Presente**
 
-- Apoyo en laboratorios y talleres de programación.
-- Revisión de código, resolución de dudas y retroalimentación técnica.
-- Desarrollo de material didáctico y ejemplos prácticos.
+- Acompañamiento directo al profesor en cátedras teóricas para estudiantes de ingeniería, facilitando la comprensión de lenguaje Python y bases del pensamiento computacional.
+- Mentoría técnica y resolución de dudas conceptuales sobre modelado algorítmico, modularidad, funciones y estructuras de control.
+- Evaluación de talleres y entrega de retroalimentación formativa enfocada en legibilidad, lógica computacional y estándares de código limpio.
 
-### Ayudante de Fundamentos de Ingeniería de Software — USACH
-**2025 – Presente**
+### Ayudante de Laboratorio — Fundamentos de Ingeniería de Software
+**Septiembre 2025 – Presente**
 
-- Apoyo en análisis de requerimientos, diseño y buenas prácticas de desarrollo.
-- Mentoría y evaluación de trabajos prácticos.
-- Refuerzo de conceptos de calidad, testing y ciclo de vida del software.
+- Apoyo en laboratorios de ingeniería de software, metodologías de desarrollo y adopción de buenas prácticas de código.
+- Mentoría a estudiantes en análisis de requerimientos, diseño de soluciones, arquitectura por capas y testing unitario.
+- Evaluación de entregas prácticas y orientación en ciclo de vida del software y control de versiones.
 
 ## Proyectos destacados
 
-### ToolRent — Sistema de gestión de alquiler de herramientas
+### ToolRent — Sistema de Gestión de Alquiler de Herramientas
 **Java · Spring Boot · React · PostgreSQL · Keycloak · Docker**
 
-Desarrollo de una plataforma full stack para gestionar inventario, préstamos, clientes, deudas y reportes. Implementé una API REST, autenticación basada en roles, persistencia con JPA, validaciones de negocio y pruebas con cobertura superior al 90 %.
+Plataforma full stack desarrollada bajo dos enfoques arquitectónicos: monolito modular por capas y microservicios distribuidos, para comparar escalabilidad y mantenibilidad. Diseñé e implementé una API REST con Spring Boot, organizada en controladores, servicios, repositorios, entidades y DTOs, alcanzando una cobertura de pruebas unitarias superior al 90%. Implementé interfaz frontend en React y Vite con validaciones en tiempo real y autenticación basada en roles mediante Keycloak. Desarrollé funcionalidades para gestión de inventario, kardex, préstamos, devoluciones, multas, reparaciones, clientes, deudas y reportes.
 
-- [BackendTingeso](https://github.com/Maty-git/BackendTingeso)
-- [FrontendTingeso](https://github.com/Maty-git/FrontendTingeso)
+- [Backend monolítico](https://github.com/Maty-git/BackendTingeso)
+- [Frontend](https://github.com/Maty-git/FrontendTingeso)
+- [Backend de microservicios](https://github.com/Maty-git/microserviciosbackend)
+- [Frontend de microservicios](https://github.com/Maty-git/microserviciosfrontend)
 
-### vuln-app-wazuh — Proyecto DevSecOps 2-2025
-**JavaScript · Vue · Python · PL/pgSQL · Shell · CSS**
+### Sistema de Gestión Financiera — Clínica Dental
+**Go · TypeScript · React · PostgreSQL · Docker · Caddy**
 
-Proyecto orientado a automatización y análisis de seguridad en aplicaciones, integrando tecnologías frontend, backend, bases de datos y scripting.
+Plataforma para control financiero con backend de alto rendimiento en Go (Chi Router) y frontend modular en React con TypeScript y Vite. Implementación de módulos financieros: panel de flujo de caja categorizado, seguimiento de metas operativas (KPIs), motor de proyecciones superávit/déficit y análisis de retorno sobre inversión (ROI). Despliegue contenerizado con Docker Compose y Caddy como reverse proxy con terminación SSL/HTTPS automática, integrando autenticación JWT y control de acceso por roles.
 
-- [Repositorio vuln-app-wazuh](https://github.com/Scapin1/vuln-app-wazuh)
+- [Repositorio del proyecto](https://github.com/Scapin1/clinica-dental)
 
-### Plataforma basada en microservicios
-**Java · JavaScript · Arquitectura distribuida**
+### vuln-app-wazuh — Plataforma DevSecOps y Análisis de Seguridad
+**Python · Vue 3 · JavaScript · PostgreSQL · Docker · GitHub Actions · CI/CD · SonarCloud · OWASP ZAP**
 
-Desarrollo de una solución con frontend y backend desacoplados, aplicando modularidad, separación de responsabilidades y principios de escalabilidad.
+Plataforma con enfoque DevSecOps integrando interfaz en Vue 3 y JavaScript, backend de análisis en Python y persistencia en PostgreSQL. Diseño de pipeline CI/CD en GitHub Actions incorporando pruebas automáticas, análisis estático de código en SonarCloud y escaneo dinámico de vulnerabilidades (DAST) con OWASP ZAP. Implementación de panel para gestión centralizada de hallazgos de seguridad, automatizando entornos mediante Docker Compose y certificados SSL automáticos con Certbot.
 
-- [Backend](https://github.com/Maty-git/microserviciosbackend)
-- [Frontend](https://github.com/Maty-git/microserviciosfrontend)
-
-### Sistema de gestión para tienda TCG
-**Java · Bases de datos · Modelado relacional**
-
-Participación en el desarrollo de una solución para la gestión de inventario y operaciones de una tienda de cartas coleccionables.
-
-- [DBD_Grupo_11](https://github.com/Maty-git/DBD_Grupo_11)
+- [Repositorio del proyecto](https://github.com/Scapin1/vuln-app-wazuh)
 
 ## Competencias técnicas
 
-- **Lenguajes:** Java, JavaScript, Python, SQL, PL/pgSQL, Shell, Prolog y Scheme.
-- **Backend:** Spring Boot, Spring Data JPA, APIs REST y microservicios.
-- **Frontend:** React, Vue, Vite, Bootstrap, HTML5 y CSS3.
-- **Datos y DevOps:** PostgreSQL, modelado relacional, Docker, Maven, Git y GitHub.
-- **Calidad y seguridad:** pruebas unitarias, validación de datos, JaCoCo, Keycloak, autenticación, autorización y fundamentos de DevSecOps.
+- **Lenguajes:** Java, Go, JavaScript, TypeScript, Python, SQL, PL/pgSQL y Shell Scripting.
+- **Backend:** Spring Boot, Go (Chi Router), APIs REST, Arquitectura por Capas y Microservicios.
+- **Frontend:** React 18, Vue.js 3, Vite, Bootstrap 5, HTML5 y CSS3.
+- **Datos y DevOps:** PostgreSQL, modelado relacional, Docker, Docker Compose, Git/GitHub, Keycloak, Caddy, Nginx y CI/CD con GitHub Actions.
+- **Calidad y Seguridad:** Pruebas unitarias, JUnit, JaCoCo (cobertura ≥90%), SonarCloud, OWASP ZAP, Keycloak (RBAC), autenticación JWT, validación de datos y fundamentos de DevSecOps.
 
 ## Habilidades blandas
 
-Resolución de problemas · aprendizaje autónomo · adaptación tecnológica · comunicación efectiva · trabajo en equipo · mentoría · organización · pensamiento lógico · atención al detalle · compromiso con la calidad.
+Resolución de problemas · aprendizaje autónomo · comunicación técnica · trabajo en equipo · mentoría · organización · pensamiento lógico · adaptación tecnológica · atención al detalle · capacidad de abstracción.
 
 ## Educación
 
-**Ingeniería en Ejecución en Computación**  
+**Ingeniería de Ejecución en Computación e Informática**  
 Universidad de Santiago de Chile (USACH)  
-**Egreso esperado:** marzo de 2027
+**Egreso esperado:** Marzo de 2027
 
-## Archivos del repositorio
+## Información adicional
 
-- [CV web en HTML](https://maty-git.github.io/CV-Matias-Ramirez/)
-- [CV estructurado en JSON](./cv.json)
-- [CV en HTML (código fuente)](./index.html)
+- **Idiomas:** Español nativo e inglés con capacidad de lectura técnica.
+- **GitHub:** [github.com/Maty-git](https://github.com/Maty-git) — Repositorios públicos con código fuente de arquitecturas monolíticas y distribuidas.
+- **Ubicación:** Santiago, Región Metropolitana, Chile.
 
 ---
 
-**Última actualización:** septiembre de 2026
+**Última actualización:** Septiembre de 2026
