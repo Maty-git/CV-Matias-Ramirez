@@ -10,160 +10,170 @@
       "country": "Chile"
     },
     "github": "https://github.com/Maty-git",
-    "linkedin": "https://linkedin.com/in/matias-ramirez-escobar-860134384/"
+    "linkedin": "https://linkedin.com/in/matias-ramirez-escobar-860134384/",
+    "website": "https://maty-git.github.io/CV-Matias-Ramirez/"
   },
   
-  "professionalSummary": "Desarrollador de software con experiencia en desarrollo web, APIs REST, bases de datos, microservicios y proyectos full stack. He trabajado con Java, Spring Boot, JavaScript, React, Vue, Python, PostgreSQL, Docker, Git/GitHub y herramientas de automatización y seguridad aplicada. Actualmente desempeño funciones como ayudante de Fundamentos de Programación y de Fundamentos de Ingeniería de Software en la USACH, fortaleciendo mis habilidades de comunicación, resolución de problemas, acompañamiento académico y trabajo en equipo. Me caracterizo por mi capacidad de aprendizaje autónomo, adaptación a nuevas tecnologías y enfoque en construir soluciones útiles, escalables y bien estructuradas.",
+  "professionalSummary": "Desarrollador de software enfocado en el desarrollo full stack, arquitecturas modernas (monolíticas y microservicios) y APIs REST escalables. Experiencia práctica construyendo soluciones con Java (Spring Boot), Go y Python en backend, integradas con React, Vue y bases de datos PostgreSQL. Cuenta con experiencia en contenerización con Docker, prácticas DevSecOps (CI/CD, escaneo DAST con OWASP ZAP) y autenticación centralizada RBAC. Me desempeño como ayudante de cátedra y laboratorio en la USACH, reforzando capacidades de comunicación técnica, análisis algorítmico y trabajo colaborativo.",
 
   "experience": [
     {
-      "position": "Ayudante de Fundamentos de Programación",
+      "position": "Ayudante de Cátedra — Fundamentos de Programación",
       "company": "Universidad de Santiago de Chile (USACH)",
-      "startDate": "2025-01",
+      "startDate": "2026-09",
       "endDate": "present",
       "description": [
-        "Apoyo en laboratorios y talleres de programación orientada a objetos a estudiantes de Ingeniería",
-        "Desarrollo de material didáctico, guías de ejercicios y ejemplos prácticos",
-        "Revisión de código y retroalimentación técnica a estudiantes",
-        "Resolución de dudas y acompañamiento en el aprendizaje de conceptos fundamentales"
+        "Acompañamiento directo al profesor en cátedras teóricas para estudiantes de ingeniería, facilitando la comprensión de lenguaje Python y bases del pensamiento computacional.",
+        "Mentoría técnica y resolución de dudas conceptuales sobre modelado algorítmico, modularidad, funciones y estructuras de control.",
+        "Evaluación de talleres y entrega de retroalimentación formativa enfocada en legibilidad, lógica computacional y estándares de código limpio."
       ]
     },
     {
-      "position": "Ayudante de Fundamentos de Ingeniería de Software",
+      "position": "Ayudante de Laboratorio — Fundamentos de Ingeniería de Software",
       "company": "Universidad de Santiago de Chile (USACH)",
-      "startDate": "2024-01",
+      "startDate": "2025-09",
       "endDate": "present",
-      "duration": "1 año",
       "description": [
-        "Apoyo en laboratorios de ingeniería de software, metodologías de desarrollo y buenas prácticas",
-        "Mentoría a estudiantes en análisis de requerimientos, diseño de soluciones y arquitectura de software",
-        "Evaluación de trabajos prácticos y proyectos de ingeniería de software",
-        "Facilitación de conceptos relacionados con calidad, testing y ciclo de vida del software"
+        "Apoyo en laboratorios de ingeniería de software, metodologías de desarrollo y adopción de buenas prácticas de código.",
+        "Mentoría a estudiantes en análisis de requerimientos, diseño de soluciones, arquitectura por capas y testing unitario.",
+        "Evaluación de entregas prácticas y orientación en ciclo de vida del software y control de versiones."
       ]
     }
   ],
 
   "projects": [
     {
-      "name": "ToolRent — Sistema de Gestión de Alquiler de Herramientas (Full Stack)",
+      "name": "ToolRent — Sistema de Gestión de Alquiler de Herramientas",
       "startDate": "2025-08",
       "endDate": "present",
-      "description": "Plataforma full stack para la gestión de inventario, herramientas, préstamos, clientes, deudas y reportes",
+      "description": "Plataforma full stack desarrollada bajo dos enfoques arquitectónicos: monolito modular por capas y microservicios distribuidos, para comparar escalabilidad y mantenibilidad.",
       "technologies": [
         "Java 21",
         "Spring Boot 3.4.9",
-        "React",
+        "React 18",
+        "Vite",
         "PostgreSQL",
         "Keycloak",
         "Docker",
+        "Docker Compose",
         "Maven",
+        "JUnit",
         "JaCoCo"
       ],
       "achievements": [
-        "Desarrollé API REST con Spring Boot (5 controladores, 6 servicios, 5 repositorios JPA)",
-        "Diseñé interfaz responsiva en React, Vite y Bootstrap con autenticación mediante Keycloak",
-        "Alcancé cobertura de código ≥90% con 18 clases de prueba (~210 métodos de prueba unitaria)",
-        "Implementé funcionalidades avanzadas: seguimiento de préstamos, cálculo de multas, kardex de inventario",
-        "Validaciones de negocio, pruebas unitarias e integración con PostgreSQL"
+        "Diseñé e implementé el sistema bajo dos enfoques arquitectónicos: monolito modular por capas y microservicios distribuidos.",
+        "Desarrollé una API REST con Spring Boot, organizada en controladores, servicios, repositorios, entidades y DTOs.",
+        "Implementé interfaz frontend en React y Vite con validaciones en tiempo real y autenticación basada en roles mediante Keycloak.",
+        "Alcancé cobertura de pruebas unitarias superior al 90% (18 clases de prueba, ~210 métodos).",
+        "Desarrollé funcionalidades de negocio para gestión de inventario, kardex, préstamos, devoluciones, multas, reparaciones, clientes, deudas y reportes."
       ],
-      "repository": "https://github.com/Maty-git/BackendTingeso"
+      "repositories": [
+        {
+          "name": "Backend monolítico",
+          "url": "https://github.com/Maty-git/BackendTingeso"
+        },
+        {
+          "name": "Frontend",
+          "url": "https://github.com/Maty-git/FrontendTingeso"
+        },
+        {
+          "name": "Backend de microservicios",
+          "url": "https://github.com/Maty-git/microserviciosbackend"
+        },
+        {
+          "name": "Frontend de microservicios",
+          "url": "https://github.com/Maty-git/microserviciosfrontend"
+        }
+      ]
     },
     {
-      "name": "vuln-app-wazuh — Proyecto DevSecOps 2-2025",
+      "name": "Sistema de Gestión Financiera — Clínica Dental",
+      "startDate": "2025",
+      "endDate": "2026",
+      "description": "Plataforma para control financiero con backend de alto rendimiento en Go (Chi Router) y frontend modular en React con TypeScript y Vite.",
+      "technologies": [
+        "Go (Golang)",
+        "Chi Router",
+        "TypeScript",
+        "React 18",
+        "Vite",
+        "PostgreSQL 16",
+        "Docker",
+        "Docker Compose",
+        "Caddy",
+        "JWT",
+        "RBAC"
+      ],
+      "achievements": [
+        "Desarrollo de plataforma para control financiero con backend de alto rendimiento en Go (Chi Router).",
+        "Implementación de módulos financieros: panel de flujo de caja categorizado, seguimiento de metas operativas (KPIs), motor de proyecciones superávit/déficit y análisis de retorno sobre inversión (ROI).",
+        "Despliegue contenerizado con Docker Compose y Caddy como reverse proxy con terminación SSL/HTTPS automática.",
+        "Integración de autenticación JWT y control de acceso basado en roles (RBAC)."
+      ],
+      "repositories": [
+        {
+          "name": "Repositorio del proyecto",
+          "url": "https://github.com/Scapin1/clinica-dental"
+        }
+      ]
+    },
+    {
+      "name": "vuln-app-wazuh — Plataforma DevSecOps y Análisis de Seguridad",
       "startDate": "2025",
       "endDate": "2025",
-      "description": "Proyecto orientado a automatización y análisis de seguridad en aplicaciones",
+      "description": "Plataforma con enfoque DevSecOps integrando interfaz en Vue 3 y JavaScript, backend de análisis en Python y persistencia en PostgreSQL.",
       "technologies": [
-        "JavaScript",
-        "Vue",
         "Python",
-        "PLpgSQL",
-        "Shell",
-        "CSS"
-      ],
-      "achievements": [
-        "Integración de frontend con Vue, backend con Python y base de datos PostgreSQL",
-        "Implementación de scripts de automatización (Shell) para procesos de monitoreo",
-        "Análisis de vulnerabilidades y gestión de controles de seguridad",
-        "Visualización de datos de seguridad y DevSecOps"
-      ]
-    },
-    {
-      "name": "Plataforma basada en Microservicios",
-      "startDate": "2025",
-      "endDate": "2025",
-      "description": "Solución con frontend y backend desacoplados",
-      "technologies": [
-        "Java",
+        "Vue 3",
         "JavaScript",
-        "Microservicios",
-        "Arquitectura Distribuida"
+        "TypeScript",
+        "PostgreSQL",
+        "PL/pgSQL",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "CI/CD",
+        "SonarCloud",
+        "OWASP ZAP",
+        "Certbot",
+        "Shell Scripting"
       ],
       "achievements": [
-        "Implementación de modularidad y separación de responsabilidades",
-        "Aplicación de patrones de diseño para sistemas distribuidos",
-        "Escalabilidad y desacoplamiento entre servicios"
-      ]
-    },
-    {
-      "name": "Sistema de Gestión para Tienda TCG",
-      "startDate": "2025",
-      "endDate": "2025",
-      "description": "Aplicación para administración de tienda de cartas coleccionables",
-      "technologies": [
-        "Java",
-        "Bases de Datos",
-        "Modelado Relacional"
+        "Construcción de plataforma con enfoque DevSecOps integrando interfaz en Vue 3 y JavaScript, backend en Python y persistencia en PostgreSQL.",
+        "Diseño de pipeline CI/CD en GitHub Actions incorporando pruebas automáticas, análisis estático de código en SonarCloud y escaneo dinámico de vulnerabilidades (DAST) con OWASP ZAP.",
+        "Implementación de panel para gestión centralizada de hallazgos de seguridad, automatizando entornos mediante Docker Compose.",
+        "Configuración de certificados SSL automáticos con Certbot para despliegues en producción."
       ],
-      "achievements": [
-        "Diseño e implementación del modelado de datos relacional",
-        "Desarrollo de lógica de negocio para gestión de inventario",
-        "Estructura de operaciones comerciales"
-      ]
-    },
-    {
-      "name": "Proyectos Académicos — Programación Multiparadigma",
-      "startDate": "2024",
-      "endDate": "2025",
-      "description": "Soluciones aplicando programación orientada a objetos, lógica y funcional",
-      "technologies": [
-        "Java",
-        "Prolog",
-        "Racket",
-        "Scheme"
-      ],
-      "achievements": [
-        "Implementación de estructuras de datos complejas",
-        "Recursividad y abstracción funcional",
-        "Proyectos: Conecta 4 en Java, laboratorios de Prolog y Scheme"
+      "repositories": [
+        {
+          "name": "Repositorio del proyecto",
+          "url": "https://github.com/Scapin1/vuln-app-wazuh"
+        }
       ]
     }
   ],
 
   "technicalSkills": {
     "programmingLanguages": [
-      "Java 21",
-      "JavaScript",
-      "TypeScript",
+      "Java (17 / 21)",
+      "Go (Golang)",
       "Python",
-      "SQL",
-      "PL/pgSQL",
-      "Shell Script",
-      "Prolog",
-      "Racket",
-      "Scheme"
+      "TypeScript",
+      "JavaScript",
+      "SQL (PostgreSQL / PL/pgSQL)",
+      "Shell Scripting (Bash)"
     ],
     "backendFrameworks": [
-      "Spring Boot 3.x",
-      "Spring Data JPA",
-      "Spring Security",
-      "Maven",
+      "Spring Boot 3.x (Data JPA, Security)",
+      "Go Chi Router",
       "REST API Design",
-      "Microservicios"
+      "Arquitectura por Capas",
+      "Microservicios",
+      "Maven"
     ],
     "frontendFrameworks": [
       "React 18",
-      "Vue.js",
+      "Vue.js 3",
       "Vite",
       "Bootstrap 5",
       "HTML5",
@@ -174,35 +184,37 @@
       "PostgreSQL",
       "Modelado relacional",
       "Docker",
-      "Git",
-      "GitHub",
+      "Docker Compose",
+      "Git / GitHub",
+      "Caddy",
+      "Nginx",
       "Keycloak",
-      "JaCoCo"
+      "CI/CD (GitHub Actions)"
     ],
     "testingQuality": [
-      "Pruebas unitarias",
+      "Pruebas unitarias (JUnit)",
       "Pruebas de integración",
-      "JUnit",
-      "Cobertura de código",
+      "JaCoCo (Cobertura ≥90%)",
       "Validación de datos",
       "Manejo de errores"
     ],
     "securityDevSecOps": [
       "Autenticación y autorización",
       "Keycloak",
-      "SAML",
-      "Validación de entrada",
+      "JWT",
+      "RBAC (Role-Based Access Control)",
       "OWASP principles",
-      "Automatización de seguridad",
-      "Análisis de vulnerabilidades"
+      "SonarCloud (Análisis estático de código)",
+      "OWASP ZAP (Análisis dinámico de vulnerabilidades)",
+      "Automatización de seguridad"
     ],
     "methodologiesArchitecture": [
       "Arquitectura por capas",
       "SOLID principles",
       "Clean Code",
-      "Documentación",
+      "Documentación de código",
       "Control de versiones",
-      "Agile awareness"
+      "DevSecOps"
     ],
     "tools": [
       "IntelliJ IDEA",
@@ -215,22 +227,21 @@
   },
 
   "softSkills": [
-    "Resolución de problemas y pensamiento crítico",
-    "Aprendizaje autónomo y continuo",
-    "Adaptabilidad a nuevas tecnologías",
-    "Comunicación efectiva",
-    "Trabajo en equipo y colaboración",
-    "Organización y planificación",
+    "Resolución de problemas",
+    "Aprendizaje autónomo",
+    "Comunicación técnica",
+    "Trabajo en equipo",
+    "Mentoría",
+    "Organización",
+    "Pensamiento lógico",
+    "Adaptación tecnológica",
     "Atención al detalle",
-    "Pensamiento lógico y abstracción",
-    "Responsabilidad y compromiso",
-    "Mentoría y enseñanza",
-    "Acompañamiento académico"
+    "Capacidad de abstracción"
   ],
 
   "education": [
     {
-      "degree": "Ingeniería en Ejecución en Computación",
+      "degree": "Ingeniería de Ejecución en Computación e Informática",
       "institution": "Universidad de Santiago de Chile (USACH)",
       "expectedGraduation": "2027-03",
       "status": "En curso"
@@ -247,13 +258,13 @@
         "language": "Inglés",
         "level": "Lectura técnica"
       }
-    ],
-    "availability": "Disponible para prácticas, freelance o empleo a tiempo completo"
+    ]
   },
 
   "metadata": {
-    "lastUpdated": "2026-09-26",
-    "cvVersion": "1.0",
-    "repository": "https://github.com/Maty-git/CV-Matias-Ramirez"
+    "lastUpdated": "2026-09-28",
+    "cvVersion": "2.0",
+    "repository": "https://github.com/Maty-git/CV-Matias-Ramirez",
+    "onlineCV": "https://maty-git.github.io/CV-Matias-Ramirez/"
   }
 }
